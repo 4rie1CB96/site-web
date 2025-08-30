@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:700|Comfortaa:400');
+
 :root {
+    /*
+     Tema Claro
+    --text: #1e0716;
+    --background: #fcf4fa;
+    --primary: #d443a8;
+    --secondary: #e796a3;
+    --accent: #da5f63;
+
+    Tema Oscuro
+    --text: #f3ecf2;
+    --background: #0a0609;
+    --primary: #cfafc6;
+    --secondary: #5e633c;
+    --accent: #6f9f61;
+    */
+
+
+
+
+
     --primary-color: #ffe1b05d;
     --secondary-color: #ffffff;
     --price-color: #1e1e1e;
     --link-hover-color: #c0aa83;
     --box-bodybkg-color: #e8e5df;
 }
+
+/*************************************/
+
 
 html {
     font-family: "Maven Pro", sans-serif;
