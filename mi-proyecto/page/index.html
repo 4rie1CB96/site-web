@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google fonts -->
+    <!-- <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=shopping_cart" /> -->
+    <!-- Remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Maven+Pro:wght@400..900&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap"
+        rel="stylesheet">
+    <title>Cafe Expreso</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- <div class="wrapper"> -->
+        <header>
+            <div class="borders-btom">
+                <div class="header-top container">
+                    <p>
+                        N° de whatsapp:
+                        <a href="https://wa.me/5950983576269?text=Hola%20estoy%20interesad@%20en%20vender%20Monique">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            0983 576269</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100063507763088" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cosmeticosgb_py/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@cosmeticosgb_py?lang=es-419" target="_blank"><i
+                                    class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="borders-btom">
+                <div class="header-nav container">
+                    <div class="nav-logo">
+                        <img src="https://demos.codezeel.com/prestashop/PRS19/PRS190462/img/logo-1654081126.jpg"
+                            alt="Logo de la Cafeteria">
+                    </div>
+                    <div class="search">
+                        <form action="">
+                            <input type="text" placeholder="Buscar...">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <ul class="nav-icons">
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="ri-shopping-cart-2-line"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="borders-btom">
+                <div class="header-category container">
+                    <div class="category-items">
+                        <div>
+                            <i class="ri-menu-2-line"></i>
+                        </div>
+                        <p>Toda las Categorias</p>
+                    </div>
+                    <ul class="nav-items">
+                        <li>Inicio</li>
+                        <li>Café</li>
+                        <li>Helado</li>
+                        <li>Contacto</li>
+                        <li>Todas Las Marcas</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="borders-btom">
+                <div class="main-center container">
+                    <section class="main-left">
+                        <ul class="left-column">
+                            <li class="column-items">
+                                <div class="item-lvl-one">
+                                    <i class="ri-arrow-right-line"></i>
+                                    Café
+                                </div>
+                                <div>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </div>
+                                <ul class="subOne-items">
+                                    <li class="subColum-items">
+                                        <div class="item-lvl-two">
+                                            <!-- <i class="ri-arrow-right-line"></i> -->
+                                            Espressos
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </div>
+                                        <!-- <div>
+                                        </div> -->
+                                        <ul class="subTwo-items">
+                                            <li>Americano</li>
+                                            <li>Macchiato</li>
+                                            <li>Ristretto</li>
+                                        </ul>
+                                    </li>
+                                    <li>Bebidas con leche</li>
+                                    <li>Café frío</li>
+                                </ul>
+                            </li>
+                            <li class="column-items">
+                                <div class="item-lvl-one">
+                                    <i class="ri-arrow-right-line"></i>
+                                    Té e Infusiones
+                                </div>
+                                <div>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </div>
+                                <ul class="subOne-items">
+                                    <li>Té negro</li>
+                                    <li>Té verde</li>
+                                    <li>Infusiones de hierbas</li>
+                                </ul>
+                            </li>
+                            <li class="column-items">
+                                <div class="item-lvl-one">
+                                    <i class="ri-arrow-right-line"></i>
+                                    Pasteles y Tortas
+                                </div>
+                                <div>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </div>
+                                <ul class="subOne-items">
+                                    <li>Pasteles</li>
+                                    <li>Cheesecakes</li>
+                                    <li>Tartaletas</li>
+                                </ul>
+                            </li>
+                            <li class="column-items">
+                                <div class="item-lvl-one">
+                                    <i class="ri-arrow-right-line"></i>
+                                    Galletas y Masas
+                                </div>
+                                <div>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </div>
+                                <ul class="subOne-items">
+                                    <li>Galletas de mantequilla</li>
+                                    <li>Muffins</li>
+                                    <li>Croissants</li>
+                                </ul>
+                            </li>
+                            <li class="column-items">
+                                <div class="item-lvl-one">
+                                    <i class="ri-arrow-right-line"></i>
+                                    Postres Fríos
+                                </div>
+                                <div>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </div>
+                                <ul class="subOne-items">
+                                    <li>Helados</li>
+                                    <li>Sorbete</li>
+                                    <li>Parfait</li>
+                                </ul>
+                            </li>
+                            <li class="column-items">
+                                <div class="item-lvl-one">
+                                    <i class="ri-arrow-right-line"></i>
+                                    Bebidas Adicionales
+                                </div>
+                                <div>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </div>
+                                <ul class="subOne-items">
+                                    <li>Chocolate caliente</li>
+                                    <li>Jugos naturales</li>
+                                    <li>Malteadas</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="main-rigth">
+                        <div class="content-wrapper">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="https://http2.mlstatic.com/D_NQ_939987-MLA50832730063_072022-OO.webp"
+                                            alt="" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://http2.mlstatic.com/D_NQ_817829-MLA50860384312_072022-OO.webp"
+                                            alt="" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://http2.mlstatic.com/D_NQ_955859-MLA50696530729_072022-OO.webp"
+                                            alt="" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://http2.mlstatic.com/D_NQ_999003-MLA50928299324_072022-OO.webp"
+                                            alt="" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://http2.mlstatic.com/D_NQ_954078-MLA50783791927_072022-OO.webp"
+                                            alt="" />
+                                    </div>
+                                </div>
+
+                                <div class="swiper-pagination"></div>
+
+                                <div style="color: #a18d8e;" class="swiper-button-prev"></div>
+                                <div style="color: #a18d8e;" class="swiper-button-next"></div>
+
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <!-- <div class="header-nav">
+                <div>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </div>
+                <div></div>
+                <div></div>
+            </div> -->
+        <!-- </div> -->
+    </div>
+    <!--
+    <header class="">
+        <nav class="header-nav"> 
+            <div class="container">
+                <div class="left-nav">
+                    <img class="whatsapp-tel" src="https://img.icons8.com/color/50/whatsapp.png" alt="whatsapp" />
+                    <a href="https://wa.me/5950973675814">0983576296</a>
+                </div>
+
+                <ul class="right-nav">
+                    <li>CONTACTO</li>
+                    <li>OFERTAS</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="header-main">
+        <div class="wrapper container"> 
+            <div class="wrapper-left"> 
+                <a href="#">
+                    <img src="https://demos.codezeel.com/prestashop/PRS19/PRS190462/img/logo-1654081126.jpg"
+                        alt="Logo de la Cafeteria">
+                </a>
+            </div>
+
+            <div class="wrapper-center"> 
+                <div class="search">
+                    <form action="#">
+                        <input type="text" placeholder="Busca un producto" name="search">
+                        <button>
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="wrapper-right"> 
+                <ul class="right-element">
+                    <li class="">
+                        <i class="fa-regular fa-user"></i>
+                    </li>
+                    <li class="">
+                        <i class="fa-regular fa-heart"></i>
+                        <div>
+                            <span>0</span>
+                        </div>
+                    </li>
+                    <li class="">
+                        <i class="ri-shopping-cart-2-line"></i>
+                        <div>
+                            <span>0</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-category container"> 
+        <div class="category">
+            <i class="ri-menu-line"></i>
+            <h2>Todas Las Categorias</h2>
+        </div>
+        <ul class="category-list">
+            <li>Inicio</li>
+            <li>Café Helado</li>
+            <li>Contacto</li>
+            <li>Todas Las Marcas</li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="container">
+            <ul class="left-column">
+                <li class="column-items">
+                    <i class="ri-arrow-right-line"></i>
+                    Café
+                    <span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <ul>
+                        <li>
+                            Espressos
+                            <ul>
+                                <li>Americano</li>
+                                <li>Macchiato</li>
+                                <li>Ristretto</li>
+                            </ul>
+                        </li>
+                        <li>Bebidas con leche</li>
+                        <li>Café frío</li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="ri-arrow-right-line"></i>
+                    Té e Infusiones
+                    <span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <ul>
+                        <li>Té negro</li>
+                        <li>Té verde</li>
+                        <li>Infusiones de hierbas</li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="ri-arrow-right-line"></i>
+                    Pasteles y Tortas
+                    <span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <ul>
+                        <li>Pasteles</li>
+                        <li>Cheesecakes</li>
+                        <li>Tartaletas</li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="ri-arrow-right-line"></i>
+                    Galletas y Masas
+                    <span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <ul>
+                        <li>Galletas de mantequilla</li>
+                        <li>Muffins</li>
+                        <li>Croissants</li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="ri-arrow-right-line"></i>
+                    Postres Fríos
+                    <span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <ul>
+                        <li>Helados</li>
+                        <li>Sorbete</li>
+                        <li>Parfait</li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="ri-arrow-right-line"></i>
+                    Bebidas Adicionales
+                    <span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <ul>
+                        <li>Chocolate caliente</li>
+                        <li>Jugos naturales</li>
+                        <li>Malteadas</li>
+                    </ul>
+                </li>
+            </ul>
+
+            
+            <div class="content-wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://http2.mlstatic.com/D_NQ_939987-MLA50832730063_072022-OO.webp" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://http2.mlstatic.com/D_NQ_817829-MLA50860384312_072022-OO.webp" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://http2.mlstatic.com/D_NQ_955859-MLA50696530729_072022-OO.webp" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://http2.mlstatic.com/D_NQ_999003-MLA50928299324_072022-OO.webp" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://http2.mlstatic.com/D_NQ_954078-MLA50783791927_072022-OO.webp" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            
+        </div>
+
+    </main> 
+-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
