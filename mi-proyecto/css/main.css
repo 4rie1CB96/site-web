@@ -288,6 +288,7 @@ ul {
   /* width: 100%; */
   font-size: 1.125rem;
   position: relative;
+  z-index: 100;
 }
 
 .column-items:hover {
@@ -382,8 +383,29 @@ ul {
 
 
 .main-rigth {
-  border: solid 1px;
+  /* border: solid 1px; */
+  width: 950px;
 }
+
+
+.content-wrapper {
+  height: 100%;
+}
+
+.swiper {
+  /* border: solid 1px; */
+  height: 100%;
+  border-radius: 16px;
+}
+
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 /* MEDIAS */
 @media (max-width:835px) {}
